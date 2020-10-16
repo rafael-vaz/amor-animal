@@ -1,0 +1,386 @@
+body{
+margin:0;
+padding:0;
+box-sizing:border-box;
+overflow-x: hidden;
+}
+
+nav{
+
+    height: auto;
+    width: 100%;
+    background: #2ECC71;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo{
+    width: 130px;
+    height: 26px;
+}
+
+.nav-social-icone{
+width: 35px;
+height: 35px;
+}
+
+.nav-list{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.burger{
+    margin-top: 10px;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.burger button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display:none;
+}
+
+.burger ul{
+    height: 200px;
+    width: 120px;
+    background-color:#2ecc71;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 13px 17px -12px #000000; 
+box-shadow: 1px 13px 17px -12px #000000;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+transition: all 0.4s ease;
+}
+
+.burger ul{  
+   opacity: 0;
+   
+}
+.burger ul li{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 13px;
+    width: 100%;
+    
+}
+
+.burger ul li a:hover{
+    color:#ecf0f1d8;
+    cursor: pointer;
+}
+
+.burger button div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    }
+
+    .burger:hover{
+        cursor:pointer;
+    }
+
+    .burger button:focus + ul{
+        opacity: 1;
+    }
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:#ecf0f1d8;
+}
+
+nav ul li a img:hover{
+    cursor: pointer;
+}
+
+.nav-social-icone:hover{
+    cursor:pointer;
+}
+
+#banner{
+    overflow: hidden;
+}
+
+#destaques{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.destaque-cards{
+
+    width: 240px;
+    height: 280px;
+    padding-top: 10%;
+}
+
+.destaque-cards-text{
+font-family: 'Poppins', sans-serif;
+color:white;
+position:relative;
+text-decoration: none;
+text-align: center;
+}
+
+.destaque-titulo{
+font-family: 'M PLUS 1p', sans-serif;
+color:#27AE60;
+font-size:30px;
+text-decoration: none;
+text-align: center;
+}
+
+#card1{
+    background-image: url("img/hotelzinho.png");
+    background-repeat: no-repeat;
+    background: cover;
+    background-position: center;
+}
+
+#card2{
+    background-image: url("img/banho.png");
+    background-repeat: no-repeat;
+    background: cover;
+    background-position: center;
+}
+
+#card3{
+    background-image: url("img/laboratorio.png");
+    background-repeat: no-repeat;
+    background: cover;
+    background-position: center;
+}
+
+#card4{
+    background-image: url("img/entrega.png");
+    background-repeat: no-repeat;
+    background: cover;
+    background-position: center;
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#27AE60;
+    position: absolute;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#icone2{
+    width:100px;
+    height:100px;
+    float:left;
+    margin-right: 15px;
+}
+
+footer ul li{
+    list-style:none;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+    color:white;
+}
+
+.footer-sobre{  
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif; 
+    font-size:12px;
+    color:white;  
+    text-transform: justify; 
+    list-style: none;
+    width: 35%;
+    height: auto;
+}
+
+
+
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+
+}
+
+.footer-information-text{
+    font-size: 12px;
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+
+.footer-information img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 15px;
+}
+
+.img-social-footer{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-social{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-social img{
+
+    margin-right: 15px;
+}
+
+#servico-content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+#servico-descricao{
+    width: 30%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.title-content{
+font-family: 'M PLUS 1p', sans-serif;
+color:#27AE60;
+font-size:30px;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#servico-descricao h3{
+    font-family: 'Poppins', sans-serif;
+    color:#8e44ad; 
+    font-size: 20px;
+    
+}
+
+#img-servico{
+    height: auto;
+}
+
+#img-servico img{
+    width: 400px;
+    height: 350px;
+    float:right;
+}
+
+textarea{
+    resize:none; 
+    outline:none; 
+    font-family: 'Poppins', sans-serif; 
+    border:solid 2px #27ae60; 
+    border-radius: 20px;
+    padding-top:5px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+}
+
+textarea:focus{
+    border:solid 2px #2ecc71;
+}
+
+#agendamento-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#agendamento-form form {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.estilo-input{
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    height: 25px;
+    padding-left: 5px;
+    border: solid 2px #27ae60;
+    border-radius: 20px;
+    max-width: 70%;
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.estilo-input:focus{
+border:solid 2px #2ecc71; 
+}
+
+#form-submit{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #8e44ad;
+    border:none;
+    outline: none;
+    padding: 5px 20px;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+#form-submit:hover{
+    background-color:#5d2e72; 
+}
+#agendamento-img img{
+    width: 280px;
+    height: 350px;
+}
+
+@media screen and (max-width:500px) {
+    .footer-sobre{
+       width: 75%; 
+    }
+    #servico-descricao{
+        width: 75%; 
+     }
+    .nav-links-text{
+        display:none;
+    }
+    .burger button{
+        display:block;
+    }
+    
+}
