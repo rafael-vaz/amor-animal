@@ -14,5 +14,5 @@ Aplicar os conceitos de responsividade em um website utilizando o recurso Flexbo
 
 ## Link do website 🌎
 
-https://amor-animal.netlify.app/
+https://rafael-vaz.github.io/amor-animal/
 
